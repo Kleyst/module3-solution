@@ -186,9 +186,14 @@
   
   .navbar-brand {
       margin-left: 30px;
+      margin-bottom: 15px;
   }
 
   .navbar-brand h2 {
       font-weight: bold;
+      color: black;
       margin: 0;
   }
+  .navbar-brand a {
+    text-decoration: none;
+}
