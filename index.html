@@ -11,7 +11,7 @@
 <body>
 
   <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="header-nav" class="navbar navbar-default">
       <div class="navbar-header">
 
         <div class="navbar-brand">
@@ -20,16 +20,27 @@
 
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar">123</span>
-          <span class="icon-bar">123</span>
-          <span class="icon-bar">123</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right hidden-sm  hidden-md hidden-lg">
+           <li>
+             <a href="#">Chicken</a>
+           </li>
+           <li>
+             <a href="#">Beef</a>
+           </li>
+           <li>
+             <a href="#">Sushi</a>
+           </li>
+         </ul>
+       </div>
 
       </div>
     </nav>
-
-
-
   </header>
 
 
