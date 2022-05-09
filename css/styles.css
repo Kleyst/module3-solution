@@ -4,7 +4,7 @@
   }
 
   .row {
-    width: 100%;
+    margin-bottom: 20px;
   }
 
   .section-title {
@@ -43,7 +43,6 @@
     margin-top: 0px;
     margin-bottom: 25px;
     color: black;
-    text-align: center;
     font-weight: bold;
   }
 
